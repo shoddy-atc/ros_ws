@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-57a537f9b8d9a0aeae0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ignition_plugin_lecture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RotateAxis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RotateAxis-d750380e184619139602.json",
+					"name" : "RotateAxis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RotateAxis_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RotateAxis_autogen-2a6eae1dc330ecb6089d.json",
+					"name" : "RotateAxis_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchPanel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchPanel-73bec71c62fb662e89e0.json",
+					"name" : "SwitchPanel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchPanel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchPanel_autogen-f57356e6372a6f467530.json",
+					"name" : "SwitchPanel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ignition_plugin_lecture_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ignition_plugin_lecture_uninstall-b4a1776b259c8864f1c7.json",
+					"name" : "ignition_plugin_lecture_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-af7aba4341a753e8badd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shodayuto/ros_ws/build/ignition_plugin_lecture",
+		"source" : "/home/shodayuto/ros_ws/src/ignition_plugin_lecture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

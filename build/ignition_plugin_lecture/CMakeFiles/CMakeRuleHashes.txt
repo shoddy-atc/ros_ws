@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+0475be6399af7a63de6eda1b218af978 CMakeFiles/RotateAxis_autogen
+88f26a81fd7b70a632bd3686e9cac03a CMakeFiles/SwitchPanel_autogen
+170dac8672bb77a25dbec7ce75b60d70 CMakeFiles/ignition_plugin_lecture_uninstall
+48e05290a0f9efda77acbe377bb3b5ea qrc_SwitchPanel.cpp
