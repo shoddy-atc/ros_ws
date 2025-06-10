@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/shodayuto/ros_ws/build/ignition_plugin_lecture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shodayuto/turtlebot3_ws/install/turtlebot3_teleop:/home/shodayuto/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/shodayuto/ros_ws/build/ignition_plugin_lecture -- -j8 -l8
+[0.090s] [ 20%] [34m[1mAutomatic MOC for target SwitchPanel[0m
+[0.090s] [ 20%] [34m[1mAutomatic MOC for target RotateAxis[0m
+[0.111s] [ 20%] Built target RotateAxis_autogen
+[0.131s] [ 20%] Built target SwitchPanel_autogen
+[0.144s] [ 50%] Built target RotateAxis
+[0.159s] [100%] Built target SwitchPanel
+[0.169s] Invoked command in '/home/shodayuto/ros_ws/build/ignition_plugin_lecture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shodayuto/turtlebot3_ws/install/turtlebot3_teleop:/home/shodayuto/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/shodayuto/ros_ws/build/ignition_plugin_lecture -- -j8 -l8
+[0.171s] Invoking command in '/home/shodayuto/ros_ws/build/ignition_plugin_lecture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shodayuto/turtlebot3_ws/install/turtlebot3_teleop:/home/shodayuto/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/shodayuto/ros_ws/build/ignition_plugin_lecture
+[0.177s] -- Install configuration: ""
+[0.178s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/lib/libSwitchPanel.so
+[0.179s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/lib/libRotateAxis.so
+[0.179s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ignition_plugin_lecture.dsv
+[0.179s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/package_run_dependencies/ignition_plugin_lecture
+[0.179s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/parent_prefix_path/ignition_plugin_lecture
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/path.sh
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/path.dsv
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.bash
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.sh
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.zsh
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.dsv
+[0.180s] -- Installing: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/package.dsv
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/packages/ignition_plugin_lecture
+[0.180s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/cmake/ignition_plugin_lectureConfig.cmake
+[0.181s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/cmake/ignition_plugin_lectureConfig-version.cmake
+[0.181s] -- Up-to-date: /home/shodayuto/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/package.xml
+[0.183s] Invoked command in '/home/shodayuto/ros_ws/build/ignition_plugin_lecture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shodayuto/turtlebot3_ws/install/turtlebot3_teleop:/home/shodayuto/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/shodayuto/ros_ws/build/ignition_plugin_lecture
