@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shodayuto/ros_ws/src/ignition_plugin_lecture
+CMAKE_SOURCE_DIR = /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shodayuto/ros_ws/build/ignition_plugin_lecture
+CMAKE_BINARY_DIR = /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture
 
 # Utility rule file for RotateAxis_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/RotateAxis_autogen.dir/compiler_depend.make
 include CMakeFiles/RotateAxis_autogen.dir/progress.make
 
 CMakeFiles/RotateAxis_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target RotateAxis"
-	/usr/bin/cmake -E cmake_autogen /home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles/RotateAxis_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target RotateAxis"
+	/usr/bin/cmake -E cmake_autogen /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles/RotateAxis_autogen.dir/AutogenInfo.json ""
 
 RotateAxis_autogen: CMakeFiles/RotateAxis_autogen
 RotateAxis_autogen: CMakeFiles/RotateAxis_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/RotateAxis_autogen.dir/clean:
 .PHONY : CMakeFiles/RotateAxis_autogen.dir/clean
 
 CMakeFiles/RotateAxis_autogen.dir/depend:
-	cd /home/shodayuto/ros_ws/build/ignition_plugin_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/ros_ws/src/ignition_plugin_lecture /home/shodayuto/ros_ws/src/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles/RotateAxis_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles/RotateAxis_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RotateAxis_autogen.dir/depend
 

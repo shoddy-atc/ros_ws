@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shodayuto/ros_ws/src/ignition_plugin_lecture
+CMAKE_SOURCE_DIR = /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shodayuto/ros_ws/build/ignition_plugin_lecture
+CMAKE_BINARY_DIR = /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture
 
 # Utility rule file for ignition_plugin_lecture_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ignition_plugin_lecture_uninstall.dir/compiler_depend.make
 include CMakeFiles/ignition_plugin_lecture_uninstall.dir/progress.make
 
 CMakeFiles/ignition_plugin_lecture_uninstall:
-	/usr/bin/cmake -P /home/shodayuto/ros_ws/build/ignition_plugin_lecture/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ignition_plugin_lecture_uninstall: CMakeFiles/ignition_plugin_lecture_uninstall
 ignition_plugin_lecture_uninstall: CMakeFiles/ignition_plugin_lecture_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ignition_plugin_lecture_uninstall.dir/clean:
 .PHONY : CMakeFiles/ignition_plugin_lecture_uninstall.dir/clean
 
 CMakeFiles/ignition_plugin_lecture_uninstall.dir/depend:
-	cd /home/shodayuto/ros_ws/build/ignition_plugin_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/ros_ws/src/ignition_plugin_lecture /home/shodayuto/ros_ws/src/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles/ignition_plugin_lecture_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles/ignition_plugin_lecture_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ignition_plugin_lecture_uninstall.dir/depend
 

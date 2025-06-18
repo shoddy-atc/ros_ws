@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shodayuto/research/ros_ws/build/ignition_lecture
+-- Install configuration: ""
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/basic_world1.launch.py
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/gazebo.launch.py
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/model_example1.sdf
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/basic_world1.sdf
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/gui_example1.sdf
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/meshes
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/meshes/laser_marker.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/model.sdf
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/model.config
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels/right_tire.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels/left_tire.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/r200.jpg
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/lds.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/astra.dae
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/r200.dae
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/astra.jpg
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/waffle_pi_base.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/burger_base.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/waffle_base.stl
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/model.sdf
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/model.config
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/package_run_dependencies/ignition_lecture
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/parent_prefix_path/ignition_lecture
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ament_prefix_path.sh
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ament_prefix_path.dsv
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/path.sh
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/path.dsv
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.bash
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.sh
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.zsh
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.dsv
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/package.dsv
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/packages/ignition_lecture
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/cmake/ignition_lectureConfig.cmake
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/cmake/ignition_lectureConfig-version.cmake
+-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/package.xml

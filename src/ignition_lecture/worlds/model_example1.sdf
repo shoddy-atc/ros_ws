@@ -26,7 +26,7 @@
     </gui>
 
     <physics name="1ms" type="ignored">
-      <max_step_size>0.001</max_step_size>
+      <max_step_size>0.01</max_step_size>
       <real_time_factor>1.0</real_time_factor>
     </physics>
     <plugin
@@ -179,7 +179,7 @@
     </include>
 
     <include>
-      <uri>/home/shodayuto/ros_ws/src/ignition_lecture/models/my_box</uri>
+      <uri>/home/shodayuto/research/ros_ws/src/ignition_lecture/models/custom_burger</uri>
       <pose>0 2 0 0 0 0</pose>
     </include>
 

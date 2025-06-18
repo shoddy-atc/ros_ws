@@ -1,7 +1,7 @@
 CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o: \
- /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp \
+ /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/XZYR44KN5F/moc_SwitchPanel.cpp \
+ /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/XZYR44KN5F/moc_SwitchPanel.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,7 +117,7 @@ CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/XZYR44KN5F/../../../../src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.hpp \
+ /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/XZYR44KN5F/../../../../src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.hpp \
  /usr/include/ignition/gui6/ignition/gui/qt.h \
  /usr/include/ignition/gui6/gz/gui/qt.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \

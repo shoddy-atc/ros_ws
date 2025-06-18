@@ -1,5 +1,5 @@
-/home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/XZYR44KN5F/moc_SwitchPanel.cpp: /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.hpp \
-  /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/moc_predefs.h \
+/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/XZYR44KN5F/moc_SwitchPanel.cpp: /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.hpp \
+  /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

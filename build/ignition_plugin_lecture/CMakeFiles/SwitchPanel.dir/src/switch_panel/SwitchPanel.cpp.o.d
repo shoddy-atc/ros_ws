@@ -1,7 +1,7 @@
 CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o: \
- /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp \
+ /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp \
  /usr/include/stdc-predef.h \
- /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.hpp \
+ /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.hpp \
  /usr/include/ignition/gui6/ignition/gui/qt.h \
  /usr/include/ignition/gui6/gz/gui/qt.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \

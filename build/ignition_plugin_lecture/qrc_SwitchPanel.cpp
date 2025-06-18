@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qml
+  // /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qml
   0x0,0x0,0x2,0x39,
   0x69,
   0x6d,0x70,0x6f,0x72,0x74,0x20,0x51,0x74,0x51,0x75,0x69,0x63,0x6b,0x20,0x32,0x2e,

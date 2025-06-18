@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shodayuto/ros_ws/src/ignition_lecture
+CMAKE_SOURCE_DIR = /home/shodayuto/research/ros_ws/src/ignition_lecture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shodayuto/ros_ws/build/ignition_lecture
+CMAKE_BINARY_DIR = /home/shodayuto/research/ros_ws/build/ignition_lecture
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/shodayuto/ros_ws/build/ignition_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/ros_ws/src/ignition_lecture /home/shodayuto/ros_ws/src/ignition_lecture /home/shodayuto/ros_ws/build/ignition_lecture /home/shodayuto/ros_ws/build/ignition_lecture /home/shodayuto/ros_ws/build/ignition_lecture/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shodayuto/research/ros_ws/build/ignition_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/research/ros_ws/src/ignition_lecture /home/shodayuto/research/ros_ws/src/ignition_lecture /home/shodayuto/research/ros_ws/build/ignition_lecture /home/shodayuto/research/ros_ws/build/ignition_lecture /home/shodayuto/research/ros_ws/build/ignition_lecture/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

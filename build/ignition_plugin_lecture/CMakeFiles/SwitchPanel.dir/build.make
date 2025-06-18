@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shodayuto/ros_ws/src/ignition_plugin_lecture
+CMAKE_SOURCE_DIR = /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shodayuto/ros_ws/build/ignition_plugin_lecture
+CMAKE_BINARY_DIR = /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SwitchPanel.dir/depend.make
@@ -69,53 +69,53 @@ include CMakeFiles/SwitchPanel.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SwitchPanel.dir/flags.make
 
-qrc_SwitchPanel.cpp: /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qml
+qrc_SwitchPanel.cpp: /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qml
 qrc_SwitchPanel.cpp: src/switch_panel/SwitchPanel.qrc.depends
-qrc_SwitchPanel.cpp: /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_SwitchPanel.cpp"
-	/usr/lib/qt5/bin/rcc --name SwitchPanel --output /home/shodayuto/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qrc
+qrc_SwitchPanel.cpp: /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_SwitchPanel.cpp"
+	/usr/lib/qt5/bin/rcc --name SwitchPanel --output /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.qrc
 
 CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o: CMakeFiles/SwitchPanel.dir/flags.make
 CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o: SwitchPanel_autogen/mocs_compilation.cpp
 CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o: CMakeFiles/SwitchPanel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o -c /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o -c /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp
 
 CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp > CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp > CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shodayuto/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp -o CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/SwitchPanel_autogen/mocs_compilation.cpp -o CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o: CMakeFiles/SwitchPanel.dir/flags.make
-CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o: /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp
+CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o: /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp
 CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o: CMakeFiles/SwitchPanel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o -MF CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o.d -o CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o -c /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o -MF CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o.d -o CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o -c /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp
 
 CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp > CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp > CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.i
 
 CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp -o CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/switch_panel/SwitchPanel.cpp -o CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.s
 
 CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o: CMakeFiles/SwitchPanel.dir/flags.make
 CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o: qrc_SwitchPanel.cpp
 CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o: CMakeFiles/SwitchPanel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o -MF CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o.d -o CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o -c /home/shodayuto/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o -MF CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o.d -o CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o -c /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp
 
 CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shodayuto/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp > CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp > CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.i
 
 CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shodayuto/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp -o CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/qrc_SwitchPanel.cpp -o CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.s
 
 # Object files for target SwitchPanel
 SwitchPanel_OBJECTS = \
@@ -168,7 +168,7 @@ libSwitchPanel.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 libSwitchPanel.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libSwitchPanel.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libSwitchPanel.so: CMakeFiles/SwitchPanel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libSwitchPanel.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libSwitchPanel.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SwitchPanel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -180,6 +180,6 @@ CMakeFiles/SwitchPanel.dir/clean:
 .PHONY : CMakeFiles/SwitchPanel.dir/clean
 
 CMakeFiles/SwitchPanel.dir/depend: qrc_SwitchPanel.cpp
-	cd /home/shodayuto/ros_ws/build/ignition_plugin_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/ros_ws/src/ignition_plugin_lecture /home/shodayuto/ros_ws/src/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture /home/shodayuto/ros_ws/build/ignition_plugin_lecture/CMakeFiles/SwitchPanel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture/CMakeFiles/SwitchPanel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SwitchPanel.dir/depend
 

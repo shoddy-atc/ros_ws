@@ -1,7 +1,7 @@
 CMakeFiles/RotateAxis.dir/src/rotate_axis/rotate_axis.cpp.o: \
- /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/rotate_axis/rotate_axis.cpp \
+ /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/rotate_axis/rotate_axis.cpp \
  /usr/include/stdc-predef.h \
- /home/shodayuto/ros_ws/src/ignition_plugin_lecture/src/rotate_axis/rotate_axis.hpp \
+ /home/shodayuto/research/ros_ws/src/ignition_plugin_lecture/src/rotate_axis/rotate_axis.hpp \
  /usr/include/ignition/gazebo6/ignition/gazebo/System.hh \
  /usr/include/ignition/gazebo6/gz/sim/System.hh \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \

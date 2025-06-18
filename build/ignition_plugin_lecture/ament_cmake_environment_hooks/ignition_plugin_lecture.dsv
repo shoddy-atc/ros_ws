@@ -1,2 +1,2 @@
-prepend-non-duplicate;IGN_GUI_PLUGIN_PATH;/home/shodayuto/ros_ws/install/ignition_plugin_lecture/lib
-prepend-non-duplicate;IGN_GAZEBO_SYSTEM_PLUGIN_PATH;/home/shodayuto/ros_ws/install/ignition_plugin_lecture/lib
+prepend-non-duplicate;IGN_GUI_PLUGIN_PATH;/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib
+prepend-non-duplicate;IGN_GAZEBO_SYSTEM_PLUGIN_PATH;/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib
