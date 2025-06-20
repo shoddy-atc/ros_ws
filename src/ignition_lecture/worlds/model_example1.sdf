@@ -179,7 +179,7 @@
     </include>
 
     <include>
-      <uri>/home/shodayuto/research/ros_ws/src/ignition_lecture/models/custom_burger</uri>
+      <uri>model://custom_burger</uri>
       <pose>0 2 0 0 0 0</pose>
     </include>
 
