@@ -1,0 +1,2 @@
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;/home/shodayuto/research/ros_ws/src/ignition_lecture/ignition_lecture/models/custom_burger
+prepend-non-duplicate;GAZEBO_MODEL_PATH;/home/shodayuto/research/ros_ws/src/ignition_lecture/models

@@ -91,7 +91,7 @@
             </z>
           </linear_acceleration>
         </imu>
-        <plugin name="turtlebot3_imu" filename="libgazebo_ros_imu_sensor.so">
+        <plugin name="turtlebot3_imu" filename="libignition-gazebo-ros2-imu-system.so">
           <ros>
             <!-- <namespace>/tb3</namespace> -->
             <remapping>~/out:=imu</remapping>
@@ -163,7 +163,7 @@
             <stddev>0.01</stddev>
           </noise>
         </ray>
-        <plugin name="turtlebot3_laserscan" filename="libgazebo_ros_ray_sensor.so">
+         <plugin name="turtlebot3_laserscan" filename="libignition-gazebo-ros2-ray-sensor-system.so">
           <ros>
             <!-- <namespace>/tb3</namespace> -->
             <remapping>~/out:=scan</remapping>
@@ -379,7 +379,7 @@
       </axis>
     </joint>
 
-    <plugin name="turtlebot3_diff_drive" filename="libgazebo_ros_diff_drive.so">
+    <plugin name="turtlebot3_diff_drive" filename="libignition-gazebo-ros2-diff-drive-system.so">
 
       <ros>
         <!-- <namespace>/tb3</namespace> -->
@@ -412,7 +412,7 @@
 
     </plugin>
 
-    <plugin name="turtlebot3_joint_state" filename="libgazebo_ros_joint_state_publisher.so">
+     <plugin name="turtlebot3_joint_state" filename="libignition-gazebo-ros2-joint-state-publisher-system.so">
       <ros>
         <!-- <namespace>/tb3</namespace> -->
         <remapping>~/out:=joint_states</remapping>
