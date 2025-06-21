@@ -103,10 +103,10 @@
       <uri>https://fuel.gazebosim.org/1.0/nate/models/Valve</uri>
     </include>
 
-    <include>
+    <!-- <include>
       <uri>/home/shodayuto/research/ros_ws/src/ignition_lecture/models/my_box</uri>
       <pose>0 2 0 0 0 0</pose>
-    </include>
+    </include> -->
 
   </world>
 </sdf>

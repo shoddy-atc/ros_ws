@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/shodayuto/research/ros_ws/build/ignition_lecture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shodayuto/research/ros_ws/build/ignition_lecture -- -j8 -l8
+[0.041s] Invoked command in '/home/shodayuto/research/ros_ws/build/ignition_lecture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shodayuto/research/ros_ws/build/ignition_lecture -- -j8 -l8
+[0.050s] Invoking command in '/home/shodayuto/research/ros_ws/build/ignition_lecture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shodayuto/research/ros_ws/build/ignition_lecture
+[0.055s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch
+[0.056s] -- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/basic_world1.launch.py
+[0.056s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/gazebo.launch.py
+[0.056s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds
+[0.056s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/model_example1.sdf
+[0.056s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/basic_world1.sdf
+[0.056s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/gui_example1.sdf
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/meshes
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/meshes/laser_marker.stl
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/model.sdf
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/model.config
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels/right_tire.stl
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels/left_tire.stl
+[0.057s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/r200.jpg
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/lds.stl
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/astra.dae
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/r200.dae
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/astra.jpg
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/waffle_pi_base.stl
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/burger_base.stl
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/waffle_base.stl
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/model.sdf
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/model.config
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ignition_lecture.dsv
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ignition_lecture.dsv
+[0.058s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/package_run_dependencies/ignition_lecture
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/parent_prefix_path/ignition_lecture
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/path.sh
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/path.dsv
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.bash
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.sh
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.zsh
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.dsv
+[0.059s] -- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/package.dsv
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/packages/ignition_lecture
+[0.059s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/cmake/ignition_lectureConfig.cmake
+[0.060s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/cmake/ignition_lectureConfig-version.cmake
+[0.060s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/package.xml
+[0.060s] Invoked command in '/home/shodayuto/research/ros_ws/build/ignition_lecture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shodayuto/research/ros_ws/build/ignition_lecture

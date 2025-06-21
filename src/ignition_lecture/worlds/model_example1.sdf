@@ -43,7 +43,7 @@
       name="ignition::gazebo::systems::SceneBroadcaster">
     </plugin>
 
-    <light name="sun" type="directional">
+    <light name="sun2" type="directional">
       <cast_shadows>true</cast_shadows>
       <pose>0 0 10 0 0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>
@@ -55,7 +55,7 @@
         <quadratic>0.001</quadratic>
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
-    </light>
+    </light> 
 
     <model name="ground_plane">
       <static>true</static>
@@ -171,12 +171,12 @@
           </material>
         </visual>
       </link>
-    </model>
+    </model> 
 
-    <include>
+    <!-- <include>
       <uri>model://custom_burger</uri>
       <pose>0 2 0 0 0 0</pose>
-    </include>
+    </include> -->
 
   </world>
 </sdf>

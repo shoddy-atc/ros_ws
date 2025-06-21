@@ -1,3 +1,4 @@
+/home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/model_example1.launch.py
 /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/basic_world1.launch.py
 /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/gazebo.launch.py
 /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/model_example1.sdf
