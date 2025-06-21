@@ -174,11 +174,6 @@
     </model>
 
     <include>
-      <pose>5 0 0 0 0 1.57</pose>
-      <uri>https://fuel.gazebosim.org/1.0/nate/models/Valve</uri>
-    </include>
-
-    <include>
       <uri>model://custom_burger</uri>
       <pose>0 2 0 0 0 0</pose>
     </include>

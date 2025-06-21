@@ -165,7 +165,7 @@
             <stddev>0.01</stddev>
           </noise>
         </ray>
-        <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors"/>
+        <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
           <ros>
             <!-- <namespace>/tb3</namespace> -->
             <remapping>~/out:=scan</remapping>
