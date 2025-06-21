@@ -104,7 +104,7 @@
     </include>
 
     <include>
-      <uri>/home/shodayuto/research/ros_ws/src/ignition_lecture/models/custom_burger</uri>
+      <uri>/home/shodayuto/research/ros_ws/src/ignition_lecture/models/my_box</uri>
       <pose>0 2 0 0 0 0</pose>
     </include>
 

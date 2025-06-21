@@ -1,2 +1,2 @@
-prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;@CMAKE_CURRENT_SOURCE_DIR@/ignition_lecture/models/custom_burger
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;@CMAKE_CURRENT_SOURCE_DIR@/models
 prepend-non-duplicate;GAZEBO_MODEL_PATH;@CMAKE_CURRENT_SOURCE_DIR@/models

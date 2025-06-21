@@ -1,0 +1,490 @@
+[0.000000] (-) TimerEvent: {}
+[0.000809] (ignition_lecture) JobQueued: {'identifier': 'ignition_lecture', 'dependencies': OrderedDict()}
+[0.000888] (ignition_plugin_lecture) JobQueued: {'identifier': 'ignition_plugin_lecture', 'dependencies': OrderedDict()}
+[0.000917] (ignition_lecture) JobStarted: {'identifier': 'ignition_lecture'}
+[0.012093] (ignition_plugin_lecture) JobStarted: {'identifier': 'ignition_plugin_lecture'}
+[0.018208] (ignition_lecture) JobProgress: {'identifier': 'ignition_lecture', 'progress': 'cmake'}
+[0.019162] (ignition_lecture) Command: {'cmd': ['/usr/bin/cmake', '/home/shodayuto/research/ros_ws/src/ignition_lecture', '-DCMAKE_INSTALL_PREFIX=/home/shodayuto/research/ros_ws/install/ignition_lecture'], 'cwd': '/home/shodayuto/research/ros_ws/build/ignition_lecture', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share'), ('LANGUAGE', 'en_GB:en'), ('USER', 'shodayuto'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shodayuto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1958474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shodayuto'), ('IGN_GUI_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shodayuto'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shodayuto/.pixi/bin:/home/shodayuto/.local/bin:/opt/ros/humble/bin:/home/shodayuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khinggan-GCL1650TGF:@/tmp/.ICE-unix/2346,unix/khinggan-GCL1650TGF:/tmp/.ICE-unix/2346'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98a0b74a_e983_42a7_b3e8_5ff05a813bbb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.DS9D82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shodayuto/research/ros_ws/build/ignition_lecture'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble')]), 'shell': False}
+[0.022959] (ignition_plugin_lecture) JobProgress: {'identifier': 'ignition_plugin_lecture', 'progress': 'cmake'}
+[0.023976] (ignition_plugin_lecture) Command: {'cmd': ['/usr/bin/cmake', '/home/shodayuto/research/ros_ws/src/ignition_plugin_lecture', '-DCMAKE_INSTALL_PREFIX=/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture'], 'cwd': '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share'), ('LANGUAGE', 'en_GB:en'), ('USER', 'shodayuto'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shodayuto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1958474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shodayuto'), ('IGN_GUI_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shodayuto'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shodayuto/.pixi/bin:/home/shodayuto/.local/bin:/opt/ros/humble/bin:/home/shodayuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khinggan-GCL1650TGF:@/tmp/.ICE-unix/2346,unix/khinggan-GCL1650TGF:/tmp/.ICE-unix/2346'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98a0b74a_e983_42a7_b3e8_5ff05a813bbb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.DS9D82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble')]), 'shell': False}
+[0.089426] (ignition_lecture) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.089917] (ignition_plugin_lecture) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099669] (-) TimerEvent: {}
+[0.158343] (ignition_lecture) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.167488] (ignition_plugin_lecture) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.169977] (ignition_lecture) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178812] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199798] (-) TimerEvent: {}
+[0.263113] (ignition_lecture) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.267252] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.273670] (ignition_lecture) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.274070] (ignition_lecture) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.274315] (ignition_lecture) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.277604] (ignition_lecture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.278186] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.278543] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.279126] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.283170] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299879] (-) TimerEvent: {}
+[0.378334] (ignition_lecture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.389190] (ignition_lecture) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.389374] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.389484] (ignition_lecture) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.390051] (ignition_lecture) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.392817] (ignition_lecture) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399986] (-) TimerEvent: {}
+[0.401909] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402285] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.402935] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.406594] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500080] (-) TimerEvent: {}
+[0.590000] (ignition_lecture) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600182] (-) TimerEvent: {}
+[0.608965] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700308] (-) TimerEvent: {}
+[0.729742] (ignition_lecture) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.750395] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.760005] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.760906] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.765782] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[0.766757] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[0.773046] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[0.773875] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[0.778544] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.779351] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[0.786735] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.800488] (-) TimerEvent: {}
+[0.802260] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.845789] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.846296] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.849695] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.850321] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.852077] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.852605] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.852816] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[0.855446] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[0.856115] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[0.856853] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.858103] (ignition_lecture) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.861304] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.861915] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[0.864345] (ignition_lecture) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.865881] (ignition_lecture) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.866705] (ignition_lecture) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.870057] (ignition_lecture) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.871624] (ignition_lecture) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.875648] (ignition_lecture) StdoutLine: {'line': b'-- Generating done\n'}
+[0.878527] (ignition_lecture) StdoutLine: {'line': b'-- Build files have been written to: /home/shodayuto/research/ros_ws/build/ignition_lecture\n'}
+[0.884860] (ignition_lecture) CommandEnded: {'returncode': 0}
+[0.885677] (ignition_lecture) JobProgress: {'identifier': 'ignition_lecture', 'progress': 'build'}
+[0.886487] (ignition_lecture) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shodayuto/research/ros_ws/build/ignition_lecture', '--', '-j8', '-l8'], 'cwd': '/home/shodayuto/research/ros_ws/build/ignition_lecture', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share'), ('LANGUAGE', 'en_GB:en'), ('USER', 'shodayuto'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shodayuto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1958474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shodayuto'), ('IGN_GUI_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shodayuto'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shodayuto/.pixi/bin:/home/shodayuto/.local/bin:/opt/ros/humble/bin:/home/shodayuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khinggan-GCL1650TGF:@/tmp/.ICE-unix/2346,unix/khinggan-GCL1650TGF:/tmp/.ICE-unix/2346'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98a0b74a_e983_42a7_b3e8_5ff05a813bbb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.DS9D82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shodayuto/research/ros_ws/build/ignition_lecture'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble')]), 'shell': False}
+[0.900601] (-) TimerEvent: {}
+[0.929588] (ignition_lecture) CommandEnded: {'returncode': 0}
+[0.930410] (ignition_lecture) JobProgress: {'identifier': 'ignition_lecture', 'progress': 'install'}
+[0.940668] (ignition_lecture) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shodayuto/research/ros_ws/build/ignition_lecture'], 'cwd': '/home/shodayuto/research/ros_ws/build/ignition_lecture', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share'), ('LANGUAGE', 'en_GB:en'), ('USER', 'shodayuto'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shodayuto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1958474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shodayuto'), ('IGN_GUI_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shodayuto'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shodayuto/.pixi/bin:/home/shodayuto/.local/bin:/opt/ros/humble/bin:/home/shodayuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khinggan-GCL1650TGF:@/tmp/.ICE-unix/2346,unix/khinggan-GCL1650TGF:/tmp/.ICE-unix/2346'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98a0b74a_e983_42a7_b3e8_5ff05a813bbb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.DS9D82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shodayuto/research/ros_ws/build/ignition_lecture'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble')]), 'shell': False}
+[0.950421] (ignition_lecture) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.950851] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch\n'}
+[0.951013] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/basic_world1.launch.py\n'}
+[0.951150] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/launch/gazebo.launch.py\n'}
+[0.951284] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds\n'}
+[0.951422] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/model_example1.sdf\n'}
+[0.951594] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/basic_world1.sdf\n'}
+[0.951826] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/worlds/gui_example1.sdf\n'}
+[0.951954] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models\n'}
+[0.952120] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box\n'}
+[0.952300] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/meshes\n'}
+[0.952389] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/meshes/laser_marker.stl\n'}
+[0.952551] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/model.sdf\n'}
+[0.952754] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/my_box/model.config\n'}
+[0.952913] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger\n'}
+[0.953031] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes\n'}
+[0.953122] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels\n'}
+[0.953298] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels/right_tire.stl\n'}
+[0.954003] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/wheels/left_tire.stl\n'}
+[0.955115] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors\n'}
+[0.955289] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/r200.jpg\n'}
+[0.955414] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/lds.stl\n'}
+[0.956160] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/astra.dae\n'}
+[0.965122] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/r200.dae\n'}
+[0.965393] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/sensors/astra.jpg\n'}
+[0.965499] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases\n'}
+[0.965660] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/waffle_pi_base.stl\n'}
+[0.975889] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/burger_base.stl\n'}
+[0.981469] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/meshes/bases/waffle_base.stl\n'}
+[0.994210] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/model.sdf\n'}
+[0.994457] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/models/custom_burger/model.config\n'}
+[0.994652] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ignition_lecture.dsv\n'}
+[0.994776] (ignition_lecture) StdoutLine: {'line': b'-- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ignition_lecture.dsv\n'}
+[0.994928] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/package_run_dependencies/ignition_lecture\n'}
+[0.995085] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/parent_prefix_path/ignition_lecture\n'}
+[0.995244] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ament_prefix_path.sh\n'}
+[0.995384] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/ament_prefix_path.dsv\n'}
+[0.995511] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/path.sh\n'}
+[0.995676] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/environment/path.dsv\n'}
+[0.996165] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.bash\n'}
+[0.996330] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.sh\n'}
+[0.996508] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.zsh\n'}
+[0.996649] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/local_setup.dsv\n'}
+[0.996845] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/package.dsv\n'}
+[0.996969] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ament_index/resource_index/packages/ignition_lecture\n'}
+[0.997151] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/cmake/ignition_lectureConfig.cmake\n'}
+[0.997279] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/cmake/ignition_lectureConfig-version.cmake\n'}
+[0.997444] (ignition_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_lecture/share/ignition_lecture/package.xml\n'}
+[0.999585] (ignition_lecture) CommandEnded: {'returncode': 0}
+[1.000718] (-) TimerEvent: {}
+[1.028972] (ignition_lecture) JobEnded: {'identifier': 'ignition_lecture', 'rc': 0}
+[1.079481] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.094604] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.099959] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.100800] (-) TimerEvent: {}
+[1.114673] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.160507] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.168048] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.182029] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.200918] (-) TimerEvent: {}
+[1.219217] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.219722] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.220296] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[1.220428] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[1.223358] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[1.223943] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[1.227415] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.228012] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[1.254256] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.255519] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.275207] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[1.280158] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[1.281176] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[1.283602] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[1.286496] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[1.287370] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[1.289064] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.293450] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.294220] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.294670] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.297288] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.299414] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.301141] (-) TimerEvent: {}
+[1.311223] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[1.315177] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[1.315894] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[1.316600] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.320224] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[1.320919] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[1.321375] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.322124] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[1.325015] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[1.325557] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[1.332231] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.346928] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.393772] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.401252] (-) TimerEvent: {}
+[1.401669] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.418134] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.459171] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.466687] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.484756] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.503119] (-) TimerEvent: {}
+[1.544331] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[1.563583] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.586159] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.603216] (-) TimerEvent: {}
+[1.632382] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[1.639086] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.655809] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.695766] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[1.700622] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[1.701289] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[1.703302] (-) TimerEvent: {}
+[1.803623] (-) TimerEvent: {}
+[1.805985] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.821158] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.841041] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.888369] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.896934] (ignition_plugin_lecture) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.903680] (-) TimerEvent: {}
+[1.913023] (ignition_plugin_lecture) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.957376] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.957970] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.958481] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.959030] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.963385] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[1.964221] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[2.002865] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.003366] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.003750] (-) TimerEvent: {}
+[2.004050] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.004684] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[2.008158] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[2.008833] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[2.009365] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.010017] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.010232] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[2.013505] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[2.014226] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[2.028585] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.029273] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[2.029557] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.029869] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.042126] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[2.045383] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[2.046147] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[2.046670] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.047316] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.048330] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[2.049662] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.050356] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[2.050538] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[2.053844] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[2.054465] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.057413] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.088953] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[2.089507] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[2.089954] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.090548] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.091155] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.092654] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[2.096126] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[2.097081] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[2.097637] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.098476] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[2.102076] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[2.102650] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[2.103247] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.103881] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[2.104092] (-) TimerEvent: {}
+[2.106883] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[2.107488] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[2.107938] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[2.113252] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.114042] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[2.138399] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.139570] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.140163] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.140786] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[2.141411] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[2.142013] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.142616] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[2.143371] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[2.146449] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[2.147233] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[2.147998] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[2.151889] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[2.153230] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[2.154760] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[2.157394] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[2.158192] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[2.158992] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[2.162890] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[2.163612] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[2.164290] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[2.167682] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[2.168388] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[2.169172] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[2.172854] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[2.173540] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[2.174153] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[2.176805] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[2.177321] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[2.177855] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[2.180661] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[2.181342] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[2.182118] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[2.184820] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[2.185315] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[2.185836] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.186616] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[2.189148] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[2.189830] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[2.190315] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.191112] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[2.194664] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[2.195318] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[2.195918] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.196789] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[2.200183] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[2.200846] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[2.201632] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[2.204170] (-) TimerEvent: {}
+[2.205094] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[2.205826] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[2.206451] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[2.209947] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[2.210552] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[2.211147] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.211975] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[2.215147] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[2.215863] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[2.216372] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.217233] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[2.220783] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[2.221429] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[2.222026] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.223460] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[2.224115] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.227537] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.304269] (-) TimerEvent: {}
+[2.346165] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.373505] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Generating done\n'}
+[2.379853] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Build files have been written to: /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture\n'}
+[2.393202] (ignition_plugin_lecture) CommandEnded: {'returncode': 0}
+[2.394102] (ignition_plugin_lecture) JobProgress: {'identifier': 'ignition_plugin_lecture', 'progress': 'build'}
+[2.394472] (ignition_plugin_lecture) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture', '--', '-j8', '-l8'], 'cwd': '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share'), ('LANGUAGE', 'en_GB:en'), ('USER', 'shodayuto'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shodayuto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1958474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shodayuto'), ('IGN_GUI_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shodayuto'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shodayuto/.pixi/bin:/home/shodayuto/.local/bin:/opt/ros/humble/bin:/home/shodayuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khinggan-GCL1650TGF:@/tmp/.ICE-unix/2346,unix/khinggan-GCL1650TGF:/tmp/.ICE-unix/2346'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98a0b74a_e983_42a7_b3e8_5ff05a813bbb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.DS9D82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble')]), 'shell': False}
+[2.404377] (-) TimerEvent: {}
+[2.450728] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mAutomatic MOC for target SwitchPanel\x1b[0m\n'}
+[2.451016] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mAutomatic MOC for target RotateAxis\x1b[0m\n'}
+[2.485269] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 20%] Built target RotateAxis_autogen\n'}
+[2.504494] (-) TimerEvent: {}
+[2.516132] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/RotateAxis.dir/src/rotate_axis/rotate_axis.cpp.o\x1b[0m\n'}
+[2.516393] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/RotateAxis.dir/RotateAxis_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[2.604577] (-) TimerEvent: {}
+[2.704821] (-) TimerEvent: {}
+[2.805059] (-) TimerEvent: {}
+[2.905320] (-) TimerEvent: {}
+[3.005571] (-) TimerEvent: {}
+[3.105863] (-) TimerEvent: {}
+[3.206203] (-) TimerEvent: {}
+[3.306518] (-) TimerEvent: {}
+[3.406866] (-) TimerEvent: {}
+[3.507256] (-) TimerEvent: {}
+[3.607658] (-) TimerEvent: {}
+[3.708078] (-) TimerEvent: {}
+[3.808495] (-) TimerEvent: {}
+[3.908903] (-) TimerEvent: {}
+[4.009227] (-) TimerEvent: {}
+[4.109531] (-) TimerEvent: {}
+[4.209821] (-) TimerEvent: {}
+[4.229191] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 40%] Built target SwitchPanel_autogen\n'}
+[4.240494] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating qrc_SwitchPanel.cpp\x1b[0m\n'}
+[4.265114] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/SwitchPanel.dir/SwitchPanel_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[4.265372] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/SwitchPanel.dir/qrc_SwitchPanel.cpp.o\x1b[0m\n'}
+[4.265499] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/SwitchPanel.dir/src/switch_panel/SwitchPanel.cpp.o\x1b[0m\n'}
+[4.309925] (-) TimerEvent: {}
+[4.410227] (-) TimerEvent: {}
+[4.510525] (-) TimerEvent: {}
+[4.610833] (-) TimerEvent: {}
+[4.711088] (-) TimerEvent: {}
+[4.811396] (-) TimerEvent: {}
+[4.911681] (-) TimerEvent: {}
+[5.012009] (-) TimerEvent: {}
+[5.112332] (-) TimerEvent: {}
+[5.212651] (-) TimerEvent: {}
+[5.312946] (-) TimerEvent: {}
+[5.413278] (-) TimerEvent: {}
+[5.513625] (-) TimerEvent: {}
+[5.613990] (-) TimerEvent: {}
+[5.714313] (-) TimerEvent: {}
+[5.814655] (-) TimerEvent: {}
+[5.915016] (-) TimerEvent: {}
+[6.015405] (-) TimerEvent: {}
+[6.115745] (-) TimerEvent: {}
+[6.216082] (-) TimerEvent: {}
+[6.316420] (-) TimerEvent: {}
+[6.416754] (-) TimerEvent: {}
+[6.517086] (-) TimerEvent: {}
+[6.617358] (-) TimerEvent: {}
+[6.717678] (-) TimerEvent: {}
+[6.817985] (-) TimerEvent: {}
+[6.918283] (-) TimerEvent: {}
+[7.018569] (-) TimerEvent: {}
+[7.118880] (-) TimerEvent: {}
+[7.219162] (-) TimerEvent: {}
+[7.319528] (-) TimerEvent: {}
+[7.419889] (-) TimerEvent: {}
+[7.520209] (-) TimerEvent: {}
+[7.620467] (-) TimerEvent: {}
+[7.720805] (-) TimerEvent: {}
+[7.821078] (-) TimerEvent: {}
+[7.921385] (-) TimerEvent: {}
+[8.023677] (-) TimerEvent: {}
+[8.123999] (-) TimerEvent: {}
+[8.224326] (-) TimerEvent: {}
+[8.324654] (-) TimerEvent: {}
+[8.424967] (-) TimerEvent: {}
+[8.525291] (-) TimerEvent: {}
+[8.625597] (-) TimerEvent: {}
+[8.725853] (-) TimerEvent: {}
+[8.826171] (-) TimerEvent: {}
+[8.926483] (-) TimerEvent: {}
+[9.026788] (-) TimerEvent: {}
+[9.127076] (-) TimerEvent: {}
+[9.227350] (-) TimerEvent: {}
+[9.327604] (-) TimerEvent: {}
+[9.427923] (-) TimerEvent: {}
+[9.528185] (-) TimerEvent: {}
+[9.628495] (-) TimerEvent: {}
+[9.728793] (-) TimerEvent: {}
+[9.829049] (-) TimerEvent: {}
+[9.929333] (-) TimerEvent: {}
+[10.029593] (-) TimerEvent: {}
+[10.130067] (-) TimerEvent: {}
+[10.230406] (-) TimerEvent: {}
+[10.330668] (-) TimerEvent: {}
+[10.431068] (-) TimerEvent: {}
+[10.531377] (-) TimerEvent: {}
+[10.631639] (-) TimerEvent: {}
+[10.731919] (-) TimerEvent: {}
+[10.832343] (-) TimerEvent: {}
+[10.932679] (-) TimerEvent: {}
+[11.032979] (-) TimerEvent: {}
+[11.133239] (-) TimerEvent: {}
+[11.233483] (-) TimerEvent: {}
+[11.333800] (-) TimerEvent: {}
+[11.434201] (-) TimerEvent: {}
+[11.534494] (-) TimerEvent: {}
+[11.634751] (-) TimerEvent: {}
+[11.735011] (-) TimerEvent: {}
+[11.835291] (-) TimerEvent: {}
+[11.935627] (-) TimerEvent: {}
+[11.979175] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libRotateAxis.so\x1b[0m\n'}
+[12.035951] (-) TimerEvent: {}
+[12.136274] (-) TimerEvent: {}
+[12.237560] (-) TimerEvent: {}
+[12.338386] (-) TimerEvent: {}
+[12.436465] (ignition_plugin_lecture) StdoutLine: {'line': b'[ 90%] Built target RotateAxis\n'}
+[12.438484] (-) TimerEvent: {}
+[12.538817] (-) TimerEvent: {}
+[12.639139] (-) TimerEvent: {}
+[12.739446] (-) TimerEvent: {}
+[12.839799] (-) TimerEvent: {}
+[12.940122] (-) TimerEvent: {}
+[13.040422] (-) TimerEvent: {}
+[13.140785] (-) TimerEvent: {}
+[13.248280] (-) TimerEvent: {}
+[13.348878] (-) TimerEvent: {}
+[13.449197] (-) TimerEvent: {}
+[13.549455] (-) TimerEvent: {}
+[13.649727] (-) TimerEvent: {}
+[13.750122] (-) TimerEvent: {}
+[13.851086] (-) TimerEvent: {}
+[13.875443] (ignition_plugin_lecture) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libSwitchPanel.so\x1b[0m\n'}
+[13.951176] (-) TimerEvent: {}
+[14.051445] (-) TimerEvent: {}
+[14.151673] (-) TimerEvent: {}
+[14.251989] (-) TimerEvent: {}
+[14.275374] (ignition_plugin_lecture) StdoutLine: {'line': b'[100%] Built target SwitchPanel\n'}
+[14.288883] (ignition_plugin_lecture) CommandEnded: {'returncode': 0}
+[14.289826] (ignition_plugin_lecture) JobProgress: {'identifier': 'ignition_plugin_lecture', 'progress': 'install'}
+[14.290370] (ignition_plugin_lecture) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture'], 'cwd': '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share'), ('LANGUAGE', 'en_GB:en'), ('USER', 'shodayuto'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shodayuto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1958474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shodayuto'), ('IGN_GUI_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shodayuto'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shodayuto/.pixi/bin:/home/shodayuto/.local/bin:/opt/ros/humble/bin:/home/shodayuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khinggan-GCL1650TGF:@/tmp/.ICE-unix/2346,unix/khinggan-GCL1650TGF:/tmp/.ICE-unix/2346'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98a0b74a_e983_42a7_b3e8_5ff05a813bbb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.DS9D82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/shodayuto/research/ros_ws/src/ignition_lecture/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shodayuto/research/ros_ws/install/ignition_plugin_lecture:/home/shodayuto/research/ros_ws/install/ignition_lecture:/opt/ros/humble')]), 'shell': False}
+[14.299852] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.300127] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib/libSwitchPanel.so\n'}
+[14.301349] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib/libRotateAxis.so\n'}
+[14.303855] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ignition_plugin_lecture.dsv\n'}
+[14.304126] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/package_run_dependencies/ignition_plugin_lecture\n'}
+[14.304388] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/parent_prefix_path/ignition_plugin_lecture\n'}
+[14.304509] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ament_prefix_path.sh\n'}
+[14.304649] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ament_prefix_path.dsv\n'}
+[14.304786] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/path.sh\n'}
+[14.304969] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/path.dsv\n'}
+[14.305163] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.bash\n'}
+[14.305328] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.sh\n'}
+[14.305483] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.zsh\n'}
+[14.305613] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.dsv\n'}
+[14.305757] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/package.dsv\n'}
+[14.305959] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/packages/ignition_plugin_lecture\n'}
+[14.306183] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/cmake/ignition_plugin_lectureConfig.cmake\n'}
+[14.306330] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/cmake/ignition_plugin_lectureConfig-version.cmake\n'}
+[14.306481] (ignition_plugin_lecture) StdoutLine: {'line': b'-- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/package.xml\n'}
+[14.308568] (ignition_plugin_lecture) CommandEnded: {'returncode': 0}
+[14.327889] (ignition_plugin_lecture) JobEnded: {'identifier': 'ignition_plugin_lecture', 'rc': 0}
+[14.328686] (-) EventReactorShutdown: {}

@@ -59,6 +59,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ignition_lecture/environment" TYPE FILE FILES "/home/shodayuto/research/ros_ws/build/ignition_lecture/ament_cmake_environment_hooks/ignition_lecture.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/shodayuto/research/ros_ws/build/ignition_lecture/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ignition_lecture")
 endif()
 
