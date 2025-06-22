@@ -43,7 +43,19 @@
           <diffuse>0.3 0.3 0.3 1.0</diffuse>
         </material>
       </visual>
-    </link>
+    </link> 
+    <!-- <visual name="base_visual">
+      <pose>-0.032 0 0.070 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.140 0.140 0.140</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.3 0.3 0.3 1.0</ambient>
+        <diffuse>0.3 0.3 0.3 1.0</diffuse>
+      </material>
+    </visual> -->
 
     <link name="imu_link">
       <sensor name="tb3_imu" type="imu">
@@ -138,7 +150,7 @@
           <ambient>0.2 0.2 0.2 1.0</ambient>
           <diffuse>0.2 0.2 0.2 1.0</diffuse>
         </material>
-      </visual>
+      </visual> 
 
       <sensor name="hls_lfcd_lds" type="ray">
         <always_on>true</always_on>
@@ -235,7 +247,7 @@
           <diffuse>0.2 0.2 0.2 1.0</diffuse>
         </material>
       </visual>
-    </link>
+    </link> 
 
     <link name="wheel_right_link">
 
@@ -297,7 +309,7 @@
           <diffuse>0.2 0.2 0.2 1.0</diffuse>
         </material>
       </visual>
-    </link>
+    </link> 
 
     <link name='caster_back_link'>
       <pose>-0.081 0 -0.004 -1.57 0 0</pose>
