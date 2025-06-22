@@ -9,33 +9,33 @@
     <link name="base_link">
 
       <inertial>
-        <pose>-0.032 0 0.070 0 0 0</pose>
+        <pose>-0.32 0 0.70 0 0 0</pose>
         <inertia>
-          <ixx>7.2397393e-01</ixx>
-          <ixy>4.686399e-10</ixy>
-          <ixz>-1.09525703e-08</ixz>
-          <iyy>7.2397393e-01</iyy>
-          <iyz>2.8582649e-09</iyz>
-          <izz>6.53050163e-01</izz>
+          <ixx>72.397393</ixx>
+          <ixy>4.686399e-09</ixy>
+          <ixz>-1.09525703e-07</ixz>
+          <iyy>72.397393</iyy>
+          <iyz>2.8582649e-08</iyz>
+          <izz>65.3050163</izz>
         </inertia>
-        <mass>8.2573504e-01</mass>
+        <mass>82.573504</mass>
       </inertial>
 
       <collision name="base_collision">
-        <pose>-0.032 0 0.070 0 0 0</pose>
+        <pose>-0.32 0 0.70 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.140 0.140 0.140</size>
+            <size>1.40 1.40 1.40</size>
           </box>
         </geometry>
       </collision>
 
       <visual name="base_visual">
-        <pose>-0.032 0 0 0 0 0</pose>
+        <pose>-0.32 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>meshes/bases/burger_base.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
         <material>
@@ -44,18 +44,6 @@
         </material>
       </visual>
     </link> 
-    <!-- <visual name="base_visual">
-      <pose>-0.032 0 0.070 0 0 0</pose>
-      <geometry>
-        <box>
-          <size>0.140 0.140 0.140</size>
-        </box>
-      </geometry>
-      <material>
-        <ambient>0.3 0.3 0.3 1.0</ambient>
-        <diffuse>0.3 0.3 0.3 1.0</diffuse>
-      </material>
-    </visual> -->
 
     <link name="imu_link">
       <sensor name="tb3_imu" type="imu">
@@ -116,34 +104,34 @@
 
     <link name="base_scan">
       <inertial>
-        <pose>-0.020 0 0.161 0 0 0</pose>
+        <pose>-0.20 0 1.61 0 0 0</pose>
         <inertia>
-          <ixx>0.001</ixx>
+          <ixx>0.01</ixx>
           <ixy>0.000</ixy>
           <ixz>0.000</ixz>
-          <iyy>0.001</iyy>
+          <iyy>0.01</iyy>
           <iyz>0.000</iyz>
-          <izz>0.001</izz>
+          <izz>0.01</izz>
         </inertia>
-        <mass>0.114</mass>
+        <mass>1.14</mass>
       </inertial>
 
       <collision name="lidar_sensor_collision">
-        <pose>-0.020 0 0.161 0 0 0</pose>
+        <pose>-0.20 0 1.61 0 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.0508</radius>
-            <length>0.055</length>
+            <radius>0.508</radius>
+            <length>0.55</length>
           </cylinder>
         </geometry>
       </collision>
 
       <visual name="lidar_sensor_visual">
-        <pose>-0.032 0 0.171 0 0 0</pose>
+        <pose>-0.32 0 1.71 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>meshes/sensors/lds.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
         <material>
@@ -155,7 +143,7 @@
       <sensor name="hls_lfcd_lds" type="ray">
         <always_on>true</always_on>
         <visualize>true</visualize>
-        <pose>-0.032 0 0.171 0 0 0</pose>
+        <pose>-0.32 0 1.71 0 0 0</pose>
         <update_rate>5</update_rate>
         <ray>
           <scan>
@@ -167,9 +155,9 @@
             </horizontal>
           </scan>
           <range>
-            <min>0.120000</min>
-            <max>3.5</max>
-            <resolution>0.015000</resolution>
+            <min>1.20</min>
+            <max>35.0</max>
+            <resolution>0.15</resolution>
           </range>
           <noise>
             <type>gaussian</type>
@@ -190,24 +178,24 @@
 
     <link name="wheel_left_link">
       <inertial>
-        <pose>0 0.08 0.023 -1.57 0 0</pose>
+        <pose>0 0.8 0.23 -1.57 0 0</pose>
         <inertia>
-          <ixx>1.8158194e-03</ixx>
-          <ixy>-9.3392e-12</ixy>
-          <ixz>1.04909e-11</ixz>
-          <iyy>3.2922126e-03</iyy>
-          <iyz>5.75694e-11</iyz>
-          <izz>1.8158194e-03</izz>
+          <ixx>1.8158194e-02</ixx>
+          <ixy>-9.3392e-11</ixy>
+          <ixz>1.04909e-10</ixz>
+          <iyy>3.2922126e-02</iyy>
+          <iyz>5.75694e-10</iyz>
+          <izz>1.8158194e-02</izz>
         </inertia>
-        <mass>2.8498940e-02</mass>
+        <mass>0.28498940</mass>
       </inertial>
 
       <collision name="wheel_left_collision">
-        <pose>0 0.08 0.023 -1.57 0 0</pose>
+        <pose>0 0.8 0.23 -1.57 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.033</radius>
-            <length>0.018</length>
+            <radius>0.33</radius>
+            <length>0.18</length>
           </cylinder>
         </geometry>
         <surface>
@@ -235,11 +223,11 @@
       </collision>
 
       <visual name="wheel_left_visual">
-        <pose>0 0.08 0.023 0 0 0</pose>
+        <pose>0 0.8 0.23 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>meshes/wheels/left_tire.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
         <material>
@@ -252,24 +240,24 @@
     <link name="wheel_right_link">
 
       <inertial>
-        <pose>0.0 -0.08 0.023 -1.57 0 0</pose>
+        <pose>0.0 -0.8 0.23 -1.57 0 0</pose>
         <inertia>
-          <ixx>1.8158194e-03</ixx>
-          <ixy>-9.3392e-12</ixy>
-          <ixz>1.04909e-11</ixz>
-          <iyy>3.2922126e-03</iyy>
-          <iyz>5.75694e-11</iyz>
-          <izz>1.8158194e-03</izz>
+          <ixx>1.8158194e-02</ixx>
+          <ixy>-9.3392e-11</ixy>
+          <ixz>1.04909e-10</ixz>
+          <iyy>3.2922126e-02</iyy>
+          <iyz>5.75694e-10</iyz>
+          <izz>1.8158194e-02</izz>
         </inertia>
-        <mass>2.8498940e-02</mass>
+        <mass>0.28498940</mass>
       </inertial>
 
       <collision name="wheel_right_collision">
-        <pose>0.0 -0.08 0.023 -1.57 0 0</pose>
+        <pose>0.0 -0.8 0.23 -1.57 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.033</radius>
-            <length>0.018</length>
+            <radius>0.33</radius>
+            <length>0.18</length>
           </cylinder>
         </geometry>
         <surface>
@@ -297,11 +285,11 @@
       </collision>
 
       <visual name="wheel_right_visual">
-        <pose>0.0 -0.08 0.023 0 0 0</pose>
+        <pose>0.0 -0.8 0.23 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>meshes/wheels/right_tire.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
         <material>
@@ -312,22 +300,22 @@
     </link> 
 
     <link name='caster_back_link'>
-      <pose>-0.081 0 -0.004 -1.57 0 0</pose>
+      <pose>-0.81 0 -0.04 -1.57 0 0</pose>
       <inertial>
-        <mass>0.005</mass>
+        <mass>0.05</mass>
         <inertia>
-          <ixx>0.001</ixx>
+          <ixx>0.01</ixx>
           <ixy>0.000</ixy>
           <ixz>0.000</ixz>
-          <iyy>0.001</iyy>
+          <iyy>0.01</iyy>
           <iyz>0.000</iyz>
-          <izz>0.001</izz>
+          <izz>0.01</izz>
         </inertia>
       </inertial>
       <collision name='collision'>
         <geometry>
           <sphere>
-            <radius>0.005000</radius>
+            <radius>0.05</radius>
           </sphere>
         </geometry>
         <surface>
@@ -348,13 +336,13 @@
     <joint name="base_joint" type="fixed">
       <parent>base_footprint</parent>
       <child>base_link</child>
-      <pose>0.0 0.0 0.010 0 0 0</pose>
+      <pose>0.0 0.0 0.10 0 0 0</pose>
     </joint>
 
     <joint name="wheel_left_joint" type="revolute">
       <parent>base_link</parent>
       <child>wheel_left_link</child>
-      <pose>0.0 0.08 0.023 -1.57 0 0</pose>
+      <pose>0.0 0.8 0.23 -1.57 0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
       </axis>
@@ -363,7 +351,7 @@
     <joint name="wheel_right_joint" type="revolute">
       <parent>base_link</parent>
       <child>wheel_right_link</child>
-      <pose>0.0 -0.08 0.023 -1.57 0 0</pose>
+      <pose>0.0 -0.8 0.23 -1.57 0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
       </axis>
@@ -377,7 +365,7 @@
     <joint name="imu_joint" type="fixed">
       <parent>base_link</parent>
       <child>imu_link</child>
-      <pose>-0.032 0 0.068 0 0 0</pose>
+      <pose>-0.32 0 0.68 0 0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
       </axis>
@@ -386,7 +374,7 @@
     <joint name="lidar_joint" type="fixed">
       <parent>base_link</parent>
       <child>base_scan</child>
-      <pose>-0.032 0 0.171 0 0 0</pose>
+      <pose>-0.32 0 1.71 0 0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
       </axis>
@@ -406,12 +394,12 @@
       <right_joint>wheel_right_joint</right_joint>
 
       <!-- kinematics -->
-      <wheel_separation>0.160</wheel_separation>
-      <wheel_diameter>0.066</wheel_diameter>
+      <wheel_separation>1.60</wheel_separation>
+      <wheel_diameter>0.66</wheel_diameter>
 
       <!-- limits -->
-      <max_wheel_torque>20</max_wheel_torque>
-      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+      <max_wheel_torque>2000</max_wheel_torque>
+      <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
       <command_topic>cmd_vel</command_topic>
 
