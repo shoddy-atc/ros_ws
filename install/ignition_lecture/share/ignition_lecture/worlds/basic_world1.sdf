@@ -3,6 +3,9 @@
 <sdf version="1.6">
   <world name="visualize_lidar_world">
 
+    <plugin filename="libgz_ros_init.so" name="gz_ros_init"/>
+    <plugin filename="libgz_ros_factory.so" name="gz_ros_factory"/>
+
     <physics name="1ms" type="ignored">
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
@@ -35,7 +38,7 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    <!-- <model name="ground_plane">
+    <model name="ground_plane">
       <static>true</static>
       <pose>0 0 0 0 0 0</pose>
       <link name="link">
@@ -61,7 +64,7 @@
       </link>
     </model>
 
-    <model name="box">
+    <!-- <model name="box">
       <pose>0 -1 0.5 0 0 0</pose>
       <link name="box_link">
         <inertial>

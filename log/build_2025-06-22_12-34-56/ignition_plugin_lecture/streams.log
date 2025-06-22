@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture -- -j8 -l8
+[0.068s] [ 20%] [34m[1mAutomatic MOC for target RotateAxis[0m
+[0.068s] [ 20%] [34m[1mAutomatic MOC for target SwitchPanel[0m
+[0.087s] [ 20%] Built target RotateAxis_autogen
+[0.087s] [ 20%] Built target SwitchPanel_autogen
+[0.112s] [ 50%] Built target RotateAxis
+[0.115s] [100%] Built target SwitchPanel
+[0.127s] Invoked command in '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture -- -j8 -l8
+[0.129s] Invoking command in '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture
+[0.137s] -- Install configuration: ""
+[0.137s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib/libSwitchPanel.so
+[0.137s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/lib/libRotateAxis.so
+[0.137s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ignition_plugin_lecture.dsv
+[0.137s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/package_run_dependencies/ignition_plugin_lecture
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/parent_prefix_path/ignition_plugin_lecture
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ament_prefix_path.sh
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/ament_prefix_path.dsv
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/path.sh
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/environment/path.dsv
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.bash
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.sh
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.zsh
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/local_setup.dsv
+[0.138s] -- Installing: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/package.dsv
+[0.138s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ament_index/resource_index/packages/ignition_plugin_lecture
+[0.139s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/cmake/ignition_plugin_lectureConfig.cmake
+[0.139s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/cmake/ignition_plugin_lectureConfig-version.cmake
+[0.139s] -- Up-to-date: /home/shodayuto/research/ros_ws/install/ignition_plugin_lecture/share/ignition_plugin_lecture/package.xml
+[0.141s] Invoked command in '/home/shodayuto/research/ros_ws/build/ignition_plugin_lecture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shodayuto/research/ros_ws/build/ignition_plugin_lecture
